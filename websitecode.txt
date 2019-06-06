@@ -1,0 +1,107 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header
+{
+  text-align:center;
+  background:#4444;
+  padding:10;
+color:#ffrrgg;
+}
+.navi {
+  overflow: hidden;
+  background-color: #333;
+}
+.navi a
+{
+   
+   float:left;
+  text-align:center;
+  padding:14px 20px;
+  background:#333;
+  display:block;
+  color:white;
+ text-decoration:none;
+}
+.navi a.right{
+display:block;
+color:white;
+float:right;
+}
+i/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.sidebar{
+  flex: 30%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color:lightblue;
+ background:#333;
+  padding: 20px;
+}
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+
+</style>
+</head>
+<body>
+<div class="header">
+<h1>My Web Site</h1>
+<p>created by me</p>
+</div>
+
+
+<div class="navi">
+<a href="#">notifications</a>
+<a href="#">contact</a>
+<a href="#">help</a>
+<a href="#" class="right">About</a>
+</div>
+
+
+
+
+
+<div class="row">
+<div class="sidebar">
+<h3>Recent News</h3>
+<a href="click here to get all new notifications" class="noti">
+<marquee direction="up" scrolldelay="190">drdo ceptm notifications has been released click here.</br>
+                        civils services results out, click here</br>
+                        dynamics lab info </marquee>
+
+</div> <!--closing sidebar-->
+<div class="main">
+<h2>DRDO(DEFENCE RESEARCH AND DEVELOPMENT ORGANIZATION)</h2>
+<img src="captain.jpg" style="width:100%;">
+<p>this the web page designed by me</p></br>
+<h4>a small intro about me given below</h4> 
+</div>
+</div>
+<div class="footer">
+  <h2>T.Revanthkumar</h2>
+  <h3>good bye</h3>
+</div>
+
+
+</body>
+</html>
